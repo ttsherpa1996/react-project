@@ -46,7 +46,6 @@ class App extends Component {
       if (options) {
         this.setState(() => ({ options }));
       }
-      console.log(this.state.options);
     } catch (e) {
       // Do nothing at all
     }

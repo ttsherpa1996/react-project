@@ -47,9 +47,7 @@ class AcceptedSaleItem extends Component {
       break;
   }
 
-  this.setState({errors, [name]: value}, ()=> {
-      console.log(errors)
-  })
+  this.setState({errors, [name]: value});
 }
 
   render() {
