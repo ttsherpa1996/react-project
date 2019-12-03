@@ -23,7 +23,13 @@
 }
 
 .navbar {
-  height: 70px;
+  height: 61px;
   width: 100%;
   background-color: #252b33;
+  text-align: center;
+
+  img {
+    height: $xs-image-height;
+    margin-top: 5px;
+  }
 }
